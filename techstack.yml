@@ -1,0 +1,1084 @@
+repo_name: hh24k/cloudnative-pg
+report_id: 94d0f02f32e63ad820ffdf844d61185e
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:50:31+00:00'
+requested_by: jlong49
+provider: github
+branch: main
+detected_tools_count: 76
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/.github/workflows/chatops-dispatcher.yml
+  detection_source: ".github/workflows/chatops-dispatcher.yml"
+  last_updated_by: Jonathan Gonzalez V
+  last_updated_on: 2022-07-27 14:47:18.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  version: 0.24.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 22:27:02.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-11 23:37:44.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg
+  detection_source: Repo Metadata
+- name: adal
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/adal
+  version: 0.9.13
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-04 22:31:19.000000000 Z
+- name: autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest
+  version: 0.11.18
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-04 22:31:19.000000000 Z
+- name: btree
+  description: Package btree implements in-memory B-Trees of arbitrary degree
+  package_url: https://pkg.go.dev/github.com/google/btree
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: client-go
+  description: Go client for Kubernetes
+  package_url: https://pkg.go.dev/k8s.io/client-go
+  version: 0.24.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 1.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-06-22 16:48:15.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: convert
+  description: BDD Testing Framework for Go
+  package_url: https://pkg.go.dev/github.com/onsi/ginkgo/ginkgo/convert
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: cron
+  description: A cron library for go
+  package_url: https://pkg.go.dev/github.com/robfig/cron
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-04-14 12:11:38.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-04 22:31:19.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: date
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/autorest/date
+  version: 0.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: diskv
+  description: A disk-backed key-value store
+  package_url: https://pkg.go.dev/github.com/peterbourgon/diskv
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-27 14:02:34.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-11 23:37:44.000000000 Z
+- name: ginkgo
+  description: BDD Testing Framework for Go
+  package_url: https://pkg.go.dev/github.com/onsi/ginkgo
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-27 00:42:54.000000000 Z
+- name: go
+  description: Google Cloud Client Libraries for Go
+  package_url: https://pkg.go.dev/cloud.google.com/go
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: go-autorest
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-04 22:31:19.000000000 Z
+- name: go-autorest/logger
+  description: This package implements an HTTP request pipeline suitable for use across
+    multiple go-routines and provides the shared routines relied on by AutoRest generated
+    Go code
+  package_url: https://pkg.go.dev/github.com/Azure/go-autorest/logger
+  version: 0.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-04 22:31:19.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-20 15:42:35.000000000 Z
+- name: go-errors/errors
+  description: Errors with stacktraces for go
+  package_url: https://pkg.go.dev/github.com/go-errors/errors
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: go-funk
+  description: A modern Go utility library which provides helpers
+  package_url: https://pkg.go.dev/github.com/thoas/go-funk
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-14 12:10:51.000000000 Z
+- name: go-ps
+  description: Find, list, and inspect processes from Go
+  package_url: https://pkg.go.dev/github.com/mitchellh/go-ps
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-12-13 14:35:02.000000000 Z
+- name: go-restful
+  description: Package for building REST-style Web Services using Go
+  package_url: https://pkg.go.dev/github.com/emicklei/go-restful
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-05-04 22:31:19.000000000 Z
+- name: go-shellquote
+  description: Go utilities for performing shell-like word splitting/joining
+  package_url: https://pkg.go.dev/github.com/kballard/go-shellquote
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-12-13 14:35:02.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-10-29 08:52:55.000000000 Z
+- name: gofuzz
+  description: Fuzz testing for go
+  package_url: https://pkg.go.dev/github.com/google/gofuzz
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-27 14:02:34.000000000 Z
+- name: gogo/protobuf
+  description: Protocol Buffers for Go with Gadgets
+  package_url: https://pkg.go.dev/github.com/gogo/protobuf
+  version: 1.1.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in GoGo Protobuf
+    cve_id: CVE-2021-3121
+    cve_url: https://github.com/advisories/GHSA-c3h9-896r-86jm
+    detected_date: Mar 30
+    severity: high
+    first_patched: 1.3.2
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-22 10:28:41.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: httpcache
+  description: A Transport for http.Client that will cache responses according to
+    the HTTP RFC
+  package_url: https://pkg.go.dev/github.com/gregjones/httpcache
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: inf.v0
+  description: Package inf
+  package_url: https://pkg.go.dev/gopkg.in/inf.v0
+  version: 0.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-27 14:02:34.000000000 Z
+- name: json-patch
+  description: A Go library to apply RFC6902 patches and create and apply RFC7386
+    patches
+  package_url: https://pkg.go.dev/github.com/evanphx/json-patch
+  version: 0.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-27 14:02:34.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.19.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-27 14:02:34.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.19.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-27 14:02:34.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 0.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-03-22 21:55:00.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-20 15:42:35.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2021-04-28 18:29:31.000000000 Z
+- name: pprof
+  description: Pprof is a tool for visualization and analysis of profiling data
+  package_url: https://pkg.go.dev/github.com/google/pprof
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: danishedb
+  last_updated_on: 2022-01-14 07:29:47.000000000 Z
+- name: pq
+  description: Pure Go Postgres driver for database/sql
+  package_url: https://pkg.go.dev/github.com/lib/pq
+  version: 1.10.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-08-09 20:48:57.000000000 Z
+- name: purell
+  description: Tiny Go library to normalize URLs
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/purell
+  version: 1.1.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-11 23:37:44.000000000 Z
+- name: semver
+  description: Semantic Versioning
+  package_url: https://pkg.go.dev/github.com/blang/semver
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-10-29 08:52:55.000000000 Z
+- name: shlex
+  description: Automatically exported from code.google.com/p/go-shlex
+  package_url: https://pkg.go.dev/github.com/google/shlex
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2020-02-25 17:41:37.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.19.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-01-11 23:37:44.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-27 00:42:54.000000000 Z
+- name: treeprint
+  description: Package treeprint provides a simple ASCII tree composing tool
+  package_url: https://pkg.go.dev/github.com/xlab/treeprint
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: urlesc
+  description: Proper URL escaping as per RFC3986
+  package_url: https://pkg.go.dev/github.com/PuerkitoBio/urlesc
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Marco Nenciarini
+  last_updated_on: 2021-09-27 11:37:07.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.0.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-07-22 10:28:41.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Leonardo Cecchi
+  last_updated_on: 2020-02-18 13:09:48.000000000 Z
+- name: zapr
+  description: A logr implementation using Zap
+  package_url: https://pkg.go.dev/github.com/go-logr/zapr
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/hh24k/cloudnative-pg/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Gonzalez V
+  last_updated_on: 2022-01-17 09:27:36.000000000 Z
